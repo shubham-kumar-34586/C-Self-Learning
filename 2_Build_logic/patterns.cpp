@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-   /* for(int row =1;row<=4;row++)
+    /*for(int row =1;row<=4;row++)
     {
         for(int col =1;col<=4;col++){
             cout<<"*"<<" ";
@@ -104,13 +104,53 @@ for(int row =1;row<=4;row++)
         c c c c c 
         d d d d d 
         e e e e e */
-
- /*for(int row =1;row<=5;row++)
+/*
+ for(int row =1;row<=5;row++)
     {
         for(int col =1;col<=5;col++){
             char name ='F'+ col-1;
           cout<<name<<" ";
             }
             cout<<endl;
-        }      */ 
+        }       
+output:-
+        F G H I J 
+        F G H I J 
+        F G H I J 
+        F G H I J 
+        F G H I J */
+
+
+ /*for(int row =1;row<=5;row++)
+    {
+        for(char col ='a';col<='e';col++){
+            
+          cout<<col<<" ";
+            }
+            cout<<endl;
+        }     
+
+        output:-
+        a b c d e 
+        a b c d e 
+        a b c d e 
+        a b c d e 
+        a b c d e  */
+/*int  count = 1;
+for(int row =1;row<=5;row++)
+    {
+        for(int col =1;col<=5;col++){
+          
+          cout<<count<<" ";
+          count=count+1;
+            }
+            cout<<endl;
+        }     
+
+        output:-
+        1 2 3 4 5 
+        6 7 8 9 10 
+        11 12 13 14 15 
+        16 17 18 19 20 
+        21 22 23 24 25 */
 }

@@ -54,7 +54,7 @@ int main(){
 }  */
 
 /*OR*/
-void swap(int &a,int &b) //pass by referance, add & before input variable.
+void swap (int &a,int &b) //pass by referance, add & before input variable.
 {
     int c;
     c=a;
